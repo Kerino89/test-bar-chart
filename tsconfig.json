@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "newLine": "lf",
+    "strict": true,
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@": ["*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@components/*": ["components/*"],
+      "@constants/*": ["constants/*"],
+      "@typings/*": ["typings/*"],
+      "@layouts/*": ["layouts/*"],
+      "@widgets/*": ["widgets/*"],
+      "@helpers/*": ["helpers/*"],
+      "@styles/*": ["styles/*"],
+      "@assets/*": ["assets/*"],
+      "@router": ["routers/index.ts"],
+      "@icons/*": ["assets/icons/*"],
+      "@images/*": ["assets/images/*"],
+      "@hooks/*": ["hooks/*"],
+      "@libs/*": ["libs/*"],
+      "@services/*": ["services/*"]
+    }
+  },
+  "include": ["src"]
+}

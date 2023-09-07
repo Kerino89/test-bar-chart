@@ -1,0 +1,14 @@
+# dependency
+/node_modules
+
+# react create app
+/public
+/out/
+
+
+# production
+/build
+
+# config
+/config
+commitlint.config.js
