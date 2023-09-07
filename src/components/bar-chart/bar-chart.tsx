@@ -14,7 +14,7 @@ export const BarChart: React.FC<BarChartProps> = ({
 
   /**
    * Нормализация значений под высоту полотна
-   * Все что внутри хука можно размести в helpers
+   * Можно вынести в отдельную функцию.
    */
   const normalizeData = React.useMemo(() => {
     const maxValue = Math.max(...data.map(({ value }) => value));
