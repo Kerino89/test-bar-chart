@@ -21,7 +21,9 @@ export const TestBarChart: React.FC<TestBarChartProps> = ({ className }) => {
     <div className={clsx(className, styles.wrapper)}>
       <BarChart data={data} />
 
-      <button onClick={handlerClick}>Сгенерировать новые данные</button>
+      <button className={styles.button} onClick={handlerClick}>
+        Сгенерировать новые данные
+      </button>
     </div>
   );
 };
